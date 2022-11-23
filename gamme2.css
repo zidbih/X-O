@@ -1,0 +1,56 @@
+
+.game{
+    width:255px;
+    text-align: center;
+    font-family: system-ui;
+    color:white;
+    margin:auto;
+    font-weight: 500;
+    visibility: hidden;
+}
+.title{
+
+background: red;
+padding:5px 0;
+margin:5px 0;
+text-size-adjust: 2px;
+}
+span{
+color:#fa0;
+}
+.square{
+
+    width:80px;
+    height: 80px;
+    background:rgba(34, 38, 255, 0.548);
+    float :left;
+    margin :2px;
+    font-size: 50px;
+}
+.square:hover{
+    background: black;
+    cursor: pointer;
+}
+#name{
+    margin-left: 40%;
+    border-style: dashed;
+    border-color: rgba(34, 38, 255, 0.548);
+    width: 260px;
+    height: 40px;
+    border-radius: 9px;
+    outline:none ;
+    font-size: 25px;
+}
+.button{
+    width: 260px;
+    margin-left: 40%;
+    border-radius: 10px;
+    outline: none;
+    background: rgba(0, 183, 255, 0.805);
+    color: white;
+    font-size: 20px;
+}
+.button:hover{
+    background: green;
+    border-color:white;
+}
